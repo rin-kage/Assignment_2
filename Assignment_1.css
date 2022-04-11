@@ -1,3 +1,9 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+
 .Header{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -229,8 +235,8 @@ a{
 
 .FirstView{
   background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+  background-position: center center;
   padding-top: 100px;
   padding-bottom: 28px;
   display: block;
@@ -395,9 +401,9 @@ h2{
 }
 
 .AboutWrapper{
-  padding:120px 0;
   background-color: #f79214;
   padding:45px 0;
+  width:100vw;
 }
 @media screen and (max-width:767px){
   .AboutWrapper{
@@ -537,4 +543,12 @@ h2{
 .About_button a span:last-child{
   font-size: 12px;
   line-height: 18px;
+}
+a:hover{
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.HeaderLogo:hover{
+  opacity: 0.8;
+  transition: opacity 0.2s;
 }
