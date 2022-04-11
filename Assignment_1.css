@@ -150,7 +150,7 @@ li{
 }
 a:any-link{
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a{
   color: black;
@@ -276,7 +276,7 @@ img{
 
 .FirstViewContent{
   margin-bottom: 70px;
-  width: fit content;
+  width: fit-content;
 }
 @media screen and (max-width:767px){
   .FirstViewContent{
