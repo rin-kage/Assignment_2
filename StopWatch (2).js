@@ -19,7 +19,7 @@ function countUp (){
   const ms = String(date.getMilliseconds()).padStart(3,'0');
   
   /*表示*/
-  timer.textContent = '${m}:${s}.${ms}';
+  timer.textContent = `${m}:${s}.${ms}`;
   
   timeoutId = setTimeout(function(){
     countUp();
